@@ -1,0 +1,6 @@
+﻿
+Create Model:
+Scaffold-DbContext "Data Source=ISR-SQL-DEV;Initial Catalog=BIT_BL;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DataAccess/BL
+
+Update Model
+Scaffold-DbContext "Data Source=ISR-SQL-DEV;Initial Catalog=BIT_BL;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DataAccess/BL -Force
